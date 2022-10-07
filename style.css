@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+
+body{
+
+background-color: blueviolet;
+font-family: 'Alkalami', serif;
+font: 15pt normal;
+
+}
+
+
+header{
+
+    color: white;
+    text-align: center;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.371);
+
+
+}
+
+#msg{
+
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: darkgray;
+  border-radius: 15px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  transition: 0.4s;
+  cursor: pointer;
+
+}
+
+#msg:hover{
+
+  font-size: 23px;
+
+}
+
+
+.shadow{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.463);
+}
+
+section{
+  background-color: white;
+  border-radius: 10px;
+  padding: 35px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.188);
+
+}
+
+footer{
+
+  color: white;
+  text-align: center;
+  font-style: italic;
+  transition: 0.4s;
+
+}
+footer:hover{
+
+  color: darkgray;
+
+}
+
+#imagem{
+
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+
+}
+#foto{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
